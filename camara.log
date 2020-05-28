@@ -1,0 +1,22 @@
+Exporter version: 6.3.1, Blender version: 2.82 (sub 7)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  /home/ariel/Documentos/babylon_proyectos/instanciar cada cierto tiempo test babylon/
+	Python World class constructor completed
+	processing begun of mesh:  caja
+========= An error was encountered =========
+  File "/home/ariel/.config/blender/2.82/scripts/addons/babylon_js/json_exporter.py", line 112, in execute
+    mesh = Mesh(object, scene, self)
+  File "/home/ariel/.config/blender/2.82/scripts/addons/babylon_js/mesh.py", line 60, in __init__
+    self.lockedTargetId = constraint.target.name # does not support; 'to', 'up', 'space' or 'influence'
+ERROR:  'NoneType' object has no attribute 'name'
+========= end of processing =========
+elapsed time:  0 min, 0.0037 secs
